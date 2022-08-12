@@ -21,5 +21,5 @@ $resultado = realizaBusca($cep);
 if ($resultado == null) {
    echo "Erro ao buscar este CEP";
 }else {
-    var_dump($resultado);
+    echo $resultado;
 }
