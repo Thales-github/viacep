@@ -13,10 +13,10 @@
 <body>
     <div class="container">
         <div class="row">
-            <form action="" class="col-6 align-middle" style="margin-left: 25%;">
+            <form action="" id="frmCep" class="col-6 align-middle" style="margin-left: 25%;">
 
                 <h2 class="mt-3 mb-4">Api ViaCep - Integração</h2>
-                <input class="form-control" id="txtCep" type="text" placeholder="Cep*" maxlength="9"><br />
+                <input class="form-control" id="txtCep" type="text" placeholder="Cep*" maxlength="8"><br />
                 <input class="form-control" id="txtEndereco" type="text" placeholder="Endereço"><br />
                 <input class="form-control" id="txtBairro" type="text" placeholder="Bairro"><br />
                 <input class="form-control" id="txtCidade" type="text" placeholder="Cidade"><br />
@@ -57,7 +57,8 @@
     </div>
 
 
-    <script src="ajax.js"></script>
+    <script src="assets/sweetAlert/sweetalert.min.js"></script>
+    <script src="assets/scripts/ajax.js"></script>
 </body>
 
 </html>
